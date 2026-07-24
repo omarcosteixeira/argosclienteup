@@ -1,0 +1,34 @@
+{
+"name": "argos-atendimento-ai",
+"version": "2.1.0",
+"description": "Bot WhatsApp ARGO'S com integração OpenRouter, proteção anti-shadowban e bypass de autenticação Passkey (Injeção de Sessão)",
+"main": "index.js",
+"engines": {
+"node": ">=20.0.0"
+},
+"scripts": {
+"start": "node index.js"
+},
+"keywords": [
+"whatsapp",
+"bot",
+"ai",
+"openrouter",
+"llama",
+"api",
+"baileys",
+"passkey-bypass",
+"anti-ban",
+"session-injection"
+],
+"author": "ARGO'S System",
+"license": "ISC",
+"dependencies": {
+"@whiskeysockets/baileys": "^6.6.0",
+"cors": "^2.8.5",
+"dotenv": "^16.4.5",
+"express": "^4.19.2",
+"pino": "^8.20.0",
+"qrcode-terminal": "^0.12.0"
+}
+}
